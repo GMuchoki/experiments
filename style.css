@@ -1,29 +1,32 @@
+body{
+    background-color: yellowgreen;
+}
 #mrJones{
     color: burlywood;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4{
     color: green;
     font-size: 30px;
     background-color: purple;
 }
 
-h1 {
+h1{
     color: coral;
     color: rgb(201, 63, 41, 0.723);
 }
 
-.uppercase {
+.uppercase{
     text-transform: uppercase;
     color: hotpink;
     background-color: black;
 }
 
-.important {
+.important{
    color: red;
 }
 
-#theOne {
+#theOne{
     color: blue;
 }
 
