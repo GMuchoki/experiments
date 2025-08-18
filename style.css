@@ -1,32 +1,35 @@
-body{
-    background-color: yellowgreen;
-}
-#mrJones{
-    color: burlywood;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(129, 127, 127);
 }
 
-h1, h2, h3, h4{
-    color: green;
-    font-size: 30px;
-    background-color: purple;
+.container {
+    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1{
-    color: coral;
-    color: rgb(201, 63, 41, 0.723);
+.intro-container {
+    border: solid gray;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
 }
 
-.uppercase{
-    text-transform: uppercase;
-    color: hotpink;
-    background-color: black;
+.todo-container {
+    border: solid green;
+    width: 500px;
+    padding: 20px;
 }
 
-.important{
-   color: red;
+.completed-container {
+    border: solid red;
+    width: 500px;
+    padding: 20px;
 }
 
-#theOne{
-    color: blue;
+img {
+    width: 200px;
+    height: 200px;
 }
-
